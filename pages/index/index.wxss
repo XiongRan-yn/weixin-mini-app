@@ -1,0 +1,73 @@
+/**pages/index/index.wxss**/
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.userinfo-box {
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.usermotto {
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+
+.user-motto {
+  font-size: 32rpx;
+  color: #1AAD19;
+  font-weight: bold;
+}
+
+.items-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.item-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.item-desc {
+  font-size: 24rpx;
+  color: #666;
+}

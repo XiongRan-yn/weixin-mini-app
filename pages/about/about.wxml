@@ -1,0 +1,23 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <view class="about-box">
+    <view class="title">关于我的小程序</view>
+    
+    <view class="item">
+      <view class="label">版本号：</view>
+      <view class="value">{{version}}</view>
+    </view>
+    
+    <view class="item">
+      <view class="label">开发者：</view>
+      <view class="value">{{author}}</view>
+    </view>
+    
+    <view class="item">
+      <view class="label">描述：</view>
+      <view class="value">{{description}}</view>
+    </view>
+    
+    <button class="btn" bindtap="navigateBack">返回首页</button>
+  </view>
+</view>
